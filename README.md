@@ -4,7 +4,15 @@ Pagina para exiber um conselho aleatório consumindo de uma API
 ### API
  - https://api.adviceslip.com/advice
  ```js
+ ### Uso
  const API = '{API_URL}' // https://api.adviceslip.com/advice;
+ 
+ fetch(API, {
+            method: 'GET'
+        })
+        .then(resp => resp.json())
+        .then(resp => resp.slip.advice)
+        .then(setDataRef);
  ```
 
 ## Ressalto
