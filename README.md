@@ -3,6 +3,9 @@ Pagina para exiber um conselho aleatório consumindo de uma API
 
 ### API
  - https://api.adviceslip.com/advice
+ ```js
+ const API = '{API_URL}' // https://api.adviceslip.com/advice;
+ ```
 
 ## Ressalto
 Tanto as frases, como os autores são mera inlustração, pois não se trata de sua autoria.
