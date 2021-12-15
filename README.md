@@ -33,7 +33,7 @@ Pagina para exiber um conselho aleatório consumindo de uma API
  [...]
 
  const setDataRef = (text) => {
-    document.querySelector("[data-ref]").innerHTML = text;
+    document.querySelector("p[data-ref]").innerHTML = text;
  }
  [...]
  ```
