@@ -1,5 +1,10 @@
 # Pedir Conselho
 Pagina para exiber um conselho aleatório consumindo de uma API
+# Demo
+![demo](assets/demo.png)
+
+# Page
+[Demo page aqui](https://leltonborges.github.io/perdir-conselho/)
 
 ### API
  https://api.adviceslip.com/advice
@@ -44,8 +49,3 @@ const randoAutors = () => {
 
 [...]
 ```
-# Demo
-![demo](assets/demo.png)
-
-# Page
-[Demo page aqui](https://leltonborges.github.io/perdir-conselho/)
