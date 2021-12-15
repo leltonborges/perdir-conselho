@@ -14,6 +14,12 @@ Pagina para exiber um conselho aleatório consumindo de uma API
         .then(resp => resp.slip.advice)
         .then(setDataRef);
  ```
+ ### Method "setDataRef"
+ ```js
+ const setDataRef = (text) => {
+    document.querySelector("[data-ref]").innerHTML = text;
+ }
+ ```
 
 ## Ressalto
 Tanto as frases, como os autores são mera inlustração, pois não se trata de sua autoria.
