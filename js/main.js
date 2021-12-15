@@ -19,5 +19,5 @@ const randoAutors = () => {
 }
 
 const setDataRef = (text) => {
-    document.querySelector("[data-ref]").innerHTML = text;
+    document.querySelector("p[data-ref]").innerHTML = text;
 }
