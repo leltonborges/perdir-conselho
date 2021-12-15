@@ -24,6 +24,11 @@ Pagina para exiber um conselho aleatório consumindo de uma API
  [...]
  ```
  ### Method "setDataRef"
+ Busca o atributo `data-ref` da tag \<p\>
+ ```html
+ <p data-ref> [...] </p>
+ ```
+ 
  ```js
  [...]
 
