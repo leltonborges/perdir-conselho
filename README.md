@@ -10,7 +10,9 @@ Pagina para exiber um conselho aleatório consumindo de uma API
  https://api.adviceslip.com/advice
  
  ### Uso
+ 
  ```js
+ [...]
  const API = '{API_URL}' // https://api.adviceslip.com/advice;
  
  fetch(API, {
@@ -19,12 +21,16 @@ Pagina para exiber um conselho aleatório consumindo de uma API
         .then(resp => resp.json())
         .then(resp => resp.slip.advice)
         .then(setDataRef);
+ [...]
  ```
  ### Method "setDataRef"
  ```js
+ [...]
+
  const setDataRef = (text) => {
     document.querySelector("[data-ref]").innerHTML = text;
  }
+ [...]
  ```
 
 ## Ressalto
@@ -35,6 +41,7 @@ Os Autors são dados mocados da variável `autors` e usa-se um random para pega 
 ### Autors
 ```js
 let autors = ["Graciliano Ramos", "Mario Quintana", [...] , "Daniel Galera"]
+[...]
 ```
 
 ### Random Autors
