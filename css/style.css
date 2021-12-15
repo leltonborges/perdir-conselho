@@ -1,104 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
 :root {
-    --font-size: 25px;
-    --body-width: 100vw;
-    --body-height: 100vh;
-    --bg-default: #f3ebebcc;
-    --bg-article-default: #EBE4E0;
-    --color-default: #EBE4E0;
-    --color-wise:#CABDB5;
-    --color-wise-name:#72005F;
-
+  --font-size: 25px;
+  --body-width: 100vw;
+  --body-height: 100vh;
+  --bg-default: #f3ebebcc;
+  --bg-article-default: #ebe4e0;
+  --color-default: #ebe4e0;
+  --color-wise: #cabdb5;
+  --color-wise-name: #72005f;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size);
 }
 
 body {
-    background: var(--bg-default);
-    height: var(--body-height);
-    width: var(--body-width);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
+  background: var(--bg-default);
+  height: var(--body-height);
+  width: var(--body-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
-section{
-    background-color: #fcf8f8f5;
-    border-radius: 20px;
-    width: 80vw;
-    height: 60vh;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+section {
+  background-color: #fcf8f8f5;
+  border-radius: 20px;
+  width: 980px;
+  height: 550px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-aside{
-    align-self: flex-start;
-    justify-self: start;
-    margin: 20px;
+aside {
+  align-self: flex-start;
+  justify-self: start;
+  margin: 20px;
 }
 
-aside h2{
-    color: var(--color-wise);
-    font-weight: 400;
-    font-size: 0.8rem;
+aside h2 {
+  color: var(--color-wise);
+  font-weight: 400;
+  font-size: 0.8rem;
 }
 aside > p {
-    color: var(--color-wise-name);
-    font-weight: 600;
-    font-size: 1.5rem;
+  color: var(--color-wise-name);
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-section >div{
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section > div {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-article{
-    background-color: var(--bg-article-default);
-    width: 700px;
-    height: 300px;
-    align-self: center;
-    display: flex;     
-    border-radius: 15px; 
+article {
+  background-color: var(--bg-article-default);
+  width: 700px;
+  height: 300px;
+  align-self: center;
+  display: flex;
+  border-radius: 15px;
 }
 
-article > div{
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+article > div {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-article > div > p:first-child{
-    color: var(--color-wise-name);
-    font-weight: 600;
-    margin: 10px 25px;
-    text-align: justify;
+article > div > p:first-child {
+  color: var(--color-wise-name);
+  font-weight: 600;
+  margin: 10px 25px;
+  text-align: justify;
 }
-article > div > p:last-child{
-    align-self: flex-end;
-    margin-right: 25px;
-    color: var(--color-wise);
-    font-weight: 400;
-    font-size: 0.8rem;
+article > div > p:last-child {
+  align-self: flex-end;
+  margin-right: 25px;
+  color: var(--color-wise);
+  font-weight: 400;
+  font-size: 0.8rem;
 }
-article > img{
-    height: 90%;
-    justify-self: center;
-    align-self: center;
-    margin-right: 15px;
+article > img {
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  margin-right: 15px;
 }
-
-
