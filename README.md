@@ -2,9 +2,10 @@
 Pagina para exiber um conselho aleatório consumindo de uma API
 
 ### API
- - https://api.adviceslip.com/advice
- ```js
+ https://api.adviceslip.com/advice
+ 
  ### Uso
+ ```js
  const API = '{API_URL}' // https://api.adviceslip.com/advice;
  
  fetch(API, {
